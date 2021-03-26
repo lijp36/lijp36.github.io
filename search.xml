@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/lijp36.github.io/2021/03/21/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2><span id="quick-start">Quick Start</span></h2><h3><span id="create-a-new-post">Create a new post</span></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3><span id="run-server">Run server</span></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3><span id="generate-static-files">Generate static files</span></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3><span id="deploy-to-remote-sites">Deploy to remote sites</span></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>第一次博客</title>
+    <url>/lijp36.github.io/2021/03/23/a/</url>
+    <content><![CDATA[<p>目录：</p>
+<!-- toc -->
+
+<ul>
+<li><a href="#%E5%B0%9D%E8%AF%95%E8%B4%B4%E5%9B%BE">尝试贴图</a></li>
+<li><a href="#%E6%B7%BB%E5%8A%A0%E8%B6%85%E9%93%BE%E6%8E%A5">添加超链接</a></li>
+<li><a href="#%E6%B7%BB%E5%8A%A0%E4%BB%A3%E7%A0%81%E5%9D%97">添加代码块</a></li>
+</ul>
+<!-- tocstop -->
+
+<span id="more"></span>
+
+<h2><span id="尝试贴图">尝试贴图</span></h2><p><img src="https://img.rruu.net/image/605613e288c52"></p>
+<h2><span id="添加超链接">添加超链接</span></h2><p> <a href="https://lilijoy.github.io/">https://lilijoy.github.io/</a></p>
+<p>在此感谢提供指导的李静，上面是李静的博客链接，大家多多捧场。lj yyds</p>
+<h2><span id="添加代码块">添加代码块</span></h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> a = <span class="number">1</span>;</span><br><span class="line">		<span class="keyword">let</span> b=<span class="number">2</span>;</span><br><span class="line">		<span class="function"><span class="keyword">function</span> <span class="title">test1</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">		  <span class="keyword">return</span> <span class="built_in">this</span>.a</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="function"><span class="keyword">function</span> <span class="title">test1</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">		  <span class="keyword">return</span> a</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="function"><span class="keyword">function</span> <span class="title">test3</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">		  <span class="keyword">return</span> <span class="built_in">this</span>.b;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="function"><span class="keyword">function</span> <span class="title">test4</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">		  <span class="keyword">return</span> b;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="built_in">console</span>.log(test1());<span class="comment">//输出1</span></span><br><span class="line">		<span class="built_in">console</span>.log(test2());<span class="comment">//输出1</span></span><br><span class="line">		<span class="built_in">console</span>.log(test3());<span class="comment">//输出undifined</span></span><br><span class="line">		<span class="built_in">console</span>.log(test4());<span class="comment">//输出2</span></span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>blog</category>
+      </categories>
+      <tags>
+        <tag>blog</tag>
+      </tags>
+  </entry>
+</search>
